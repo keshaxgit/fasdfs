@@ -1,0 +1,28 @@
+.films{
+    display: flex;
+    justify-content: center;
+    &__h1{
+        padding-top: 81px;
+        display: flex;
+        justify-content: center;
+        color:white;
+        padding-bottom: 72px;
+    }
+    &__box{
+        display: flex;
+        max-width: 1340px;
+        width: 100%;       
+    }
+    &__disc{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__info{
+        display: flex;
+        max-width: 1340px;
+        width: 100%;
+        justify-content: space-between;   
+    }
+}

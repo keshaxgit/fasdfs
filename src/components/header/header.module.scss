@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top:20px ;
+    align-items: center;
+
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1340px;
+        width: 100%;
+        align-items: center;
+    }&__nav{
+        max-width: 521px;
+        display: flex;
+        gap: 50px;
+    }&__link{
+        text-decoration: none;
+        color:white ;
+    }&__join{
+        border-radius: 5px;
+        padding: 14px 23px ;
+        background-color: #dc143c;
+        color: white;
+        border: none;
+    }
+}
+hr{
+    max-width: 1920px;
+    border: 0.50px solid #807e7e;
+    height: 0px;
+}
